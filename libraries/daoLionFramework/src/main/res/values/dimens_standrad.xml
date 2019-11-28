@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 仅用于顶部标题栏中间标题文字 -->
+    <dimen name="h1">17sp</dimen>
+    <!-- 用于输入文字或者按钮文字 -->
+    <dimen name="h2">16sp</dimen>
+    <!-- 用于所有按钮文字，用于顶部标题栏两侧文字 -->
+    <dimen name="h3">15sp</dimen>
+    <!-- 用于正文文字1或者正文标题 -->
+    <dimen name="h4">14sp</dimen>
+    <!-- 正文文字2 -->
+    <dimen name="h5">13sp</dimen>
+    <!-- 辅助文字1，用于不重要的辅助文字，用于小标签中的文字 -->
+    <dimen name="h6">12sp</dimen>
+    <!-- 辅助文字2，用于底部状态栏的ICON说明文字，用于机器不重要的装饰文字 -->
+    <dimen name="h7">10sp</dimen>
+    <!-- 段落文字行行距 -->
+    <dimen name="line_spacing">4dp</dimen>
+    <!-- 段落之间的间距 -->
+    <dimen name="paragraph_spacing">26dp</dimen>
+    <dimen name="topbar_height">44dp</dimen>
+    <dimen name="mint_panel_height">80dp</dimen>
+    <dimen name="page_margin">12dp</dimen>
+    <dimen name="panel_gap">8dp</dimen>
+    <dimen name="item_height">50dp</dimen>
+</resources>

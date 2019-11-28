@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion rootProject.BUILD.compileSdkVersion
+    buildToolsVersion rootProject.BUILD.buildToolsVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    defaultConfig {
+        minSdkVersion rootProject.BUILD.minSdkVersion
+        targetSdkVersion rootProject.BUILD.targetSdkVersion
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation supportDependencies.v4
+    implementation supportDependencies.appcompat
+    implementation supportDependencies.supportAnnotation
+    implementation httpDependencies.gson
+}
