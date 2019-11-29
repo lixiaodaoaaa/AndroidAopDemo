@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 import com.daolion.BindTools;
 import com.daolion.BindViewAnnotation;
-import com.daolion.HelloAnnotation;
 import com.daolion.R;
 
 /*
@@ -18,7 +17,6 @@ import com.daolion.R;
     ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
  */
 
-@HelloAnnotation
 public class MainActivity extends AppCompatActivity {
 
     @BindViewAnnotation(R.id.tv_first) TextView tvFirst;
