@@ -30,16 +30,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
 
-
     implementation project(':libAnnotation')
-    annotationProcessor project(":localProcessAnnotation")
+    implementation project(":aopLib")
+    annotationProcessor project(":processAnnotation")
+
 
     implementation supportDependencies.appcompat
     implementation supportDependencies.v4
 
     api project(":daoLionFramework")
-
-
 
 
 }

@@ -1,9 +1,12 @@
 include ':app'
 include ':libAnnotation'
-include ':localProcessAnnotation'
+include ':processAnnotation'
+include ':aopLib'
 
 include ':daoLionFramework'
 
 project(':daoLionFramework').projectDir = new File('libraries/daoLionFramework')
+
 project(':libAnnotation').projectDir = new File('libraries/libAnnotation')
-project(':localProcessAnnotation').projectDir = new File('libraries/localProcessAnnotation')
+project(':processAnnotation').projectDir = new File('libraries/processAnnotation')
+project(':aopLib').projectDir = new File('libraries/aopLib')
